@@ -2,7 +2,7 @@
 # Builds, signs, notarizes and zips Elsewhere for distribution.
 #
 # Requires a notarytool keychain profile, created once with:
-#   xcrun notarytool store-credentials elsewhere-notary --apple-id <id> --team-id B8VB38TXN9
+#   xcrun notarytool store-credentials elsewhere-notary --apple-id <id> --team-id 2L3ZYUGUP7
 #
 # Usage: scripts/release.sh [--skip-notarize]
 
@@ -10,7 +10,7 @@ set -euo pipefail
 
 cd "$(dirname "$0")/.."
 
-TEAM_ID="B8VB38TXN9"
+TEAM_ID="2L3ZYUGUP7"
 NOTARY_PROFILE="${NOTARY_PROFILE:-elsewhere-notary}"
 BUILD_DIR="build"
 ARCHIVE="$BUILD_DIR/Elsewhere.xcarchive"
