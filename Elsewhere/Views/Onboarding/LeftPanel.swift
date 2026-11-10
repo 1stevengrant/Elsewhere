@@ -6,7 +6,7 @@ struct LeftPanel: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
             Image("Logo")
-            Text("Hey There!")
+            Text("Hey!")
                 .font(.largeTitle)
                 .fontWeight(.bold)
             DateTimeInfo()

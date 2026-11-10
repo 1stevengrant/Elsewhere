@@ -8,7 +8,7 @@ struct EmptyTimezoneView: View {
                 .frame(width: 158, height: 140)
                 .padding(.bottom, 8)
                 .padding(.leading, -43)
-            Text("Hey There!")
+            Text("Hey!")
                 .font(.title)
                 .fontWeight(.medium)
 

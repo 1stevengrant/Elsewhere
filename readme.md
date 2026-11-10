@@ -20,7 +20,7 @@ To build from source, open `Elsewhere.xcodeproj` in Xcode 16 or later and run th
 
 ## Features
 
-- Add photos for people from X (Twitter), Telegram or pick locally
+- Add photos for people from X (Twitter), Telegram or pick locally (X and Telegram photos are fetched through [unavatar.io](https://unavatar.io), which receives the username)
 - Add any city without knowing the time zone
 - Supports raw UTC offsets
 - 0 to 1% idle CPU usage

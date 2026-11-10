@@ -59,15 +59,6 @@ struct ElsewhereApp: App {
         #if MAC_OS_VERSION_15_0
             .windowBackgroundDragBehavior(.enabled)
         #endif
-
-        Settings {
-            Text("Coming soon...")
-        }
-        #if MAC_OS_VERSION_15_0
-            .windowStyle(.plain)
-        #endif
-            .defaultSize(width: 600, height: 400)
-            .windowResizability(.automatic)
     }
 }
 
@@ -79,10 +70,6 @@ class AppState: ObservableObject {
     static let shared = AppState()
     @Published var menuBarViewIsPresented: Bool = false
     func presentMenu() {
-        menuBarViewIsPresented = true
-    }
-
-    func hideMenu() {
         menuBarViewIsPresented = true
     }
 }

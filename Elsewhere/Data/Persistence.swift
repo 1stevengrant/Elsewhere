@@ -1,3 +1,4 @@
+import AppKit
 import Foundation
 import GRDB
 
@@ -38,16 +39,13 @@ extension AppDatabase {
 
             return appDatabase
         } catch {
-            // Replace this implementation with code to handle the error appropriately.
-            // fatalError() causes the application to generate a crash log and terminate.
-            //
-            // Typical reasons for an error here include:
-            // * The parent directory cannot be created, or disallows writing.
-            // * The database is not accessible, due to permissions or data protection when the device is locked.
-            // * The device is out of space.
-            // * The database could not be migrated to its latest schema version.
-            // Check the error message to determine what the actual problem was.
-            fatalError("Unresolved error \(error)")
+            let alert = NSAlert()
+            alert.alertStyle = .critical
+            alert.messageText = "Elsewhere can't open its database"
+            alert.informativeText = "\(error.localizedDescription)\n\nYour data is in ~/Library/Containers/nz.ghijk.Elsewhere. Try restarting your Mac, and check that your disk isn't full."
+            alert.runModal()
+
+            exit(1)
         }
     }
 
