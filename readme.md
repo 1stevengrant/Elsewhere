@@ -8,11 +8,13 @@ Elsewhere is a maintained fork of [There](https://github.com/dena-sohrabi/There)
 
 ## Install
 
-Signed builds are not published yet. Until then, build from source:
+```
+brew install --cask 1stevengrant/tap/elsewhere
+```
 
-1. Clone this repository.
-2. Open `Elsewhere.xcodeproj` in Xcode 16 or later.
-3. Select the Elsewhere scheme and run it.
+Or download the latest zip from [Releases](https://github.com/1stevengrant/Elsewhere/releases), unzip it and move Elsewhere to Applications.
+
+To build from source, open `Elsewhere.xcodeproj` in Xcode 16 or later and run the Elsewhere scheme.
 
 ## Features
 
@@ -26,11 +28,10 @@ Signed builds are not published yet. Until then, build from source:
 
 ## Moving from There
 
-Elsewhere is a separate app with its own storage, so it starts empty. Your entries in There are not changed.
+Elsewhere is a separate app with its own storage, so it starts empty. To bring your entries and photos across, open the settings menu, choose Import from There, and confirm the folder it suggests. Your entries in There are not changed.
 
 ## Roadmap
 
-- [ ] Import entries from There
 - [ ] Widgets
 - [ ] Time slider to view future or past times
 - [ ] Auto update
