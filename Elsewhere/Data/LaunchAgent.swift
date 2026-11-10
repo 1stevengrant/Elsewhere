@@ -10,7 +10,7 @@ func installLaunchAgent() {
     }
 
     let launchAgentsDirectory = libraryDirectory.appendingPathComponent("LaunchAgents")
-    let plistName = "pm.there.There.LaunchAgent.plist"
+    let plistName = "nz.ghijk.Elsewhere.LaunchAgent.plist"
     let plistPath = launchAgentsDirectory.appendingPathComponent(plistName)
 
     // Create LaunchAgents directory if it doesn't exist
@@ -30,10 +30,10 @@ func installLaunchAgent() {
     <plist version="1.0">
     <dict>
         <key>Label</key>
-        <string>pm.there.There.LaunchAgent</string>
+        <string>nz.ghijk.Elsewhere.LaunchAgent</string>
         <key>ProgramArguments</key>
         <array>
-            <string>/Applications/There.app/Contents/MacOS/There</string>
+            <string>/Applications/Elsewhere.app/Contents/MacOS/Elsewhere</string>
         </array>
         <key>RunAtLoad</key>
         <true/>
@@ -79,7 +79,7 @@ func uninstallLaunchAgent() {
     }
 
     let launchAgentsDirectory = libraryDirectory.appendingPathComponent("LaunchAgents")
-    let plistName = "pm.there.There.LaunchAgent.plist"
+    let plistName = "nz.ghijk.Elsewhere.LaunchAgent.plist"
     let plistPath = launchAgentsDirectory.appendingPathComponent(plistName)
 
     do {

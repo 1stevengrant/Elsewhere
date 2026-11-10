@@ -1,6 +1,6 @@
 //
-//  ThereApp.swift
-//  There
+//  ElsewhereApp.swift
+//  Elsewhere
 //
 //  Created by Dena Sohrabi on 9/2/24.
 //
@@ -11,7 +11,7 @@ import SwiftUI
 import UserNotifications
 
 @main
-struct ThereApp: App {
+struct ElsewhereApp: App {
     @Environment(\.openWindow) var openWindow
     @ObservedObject var appState = AppState.shared
     @StateObject var router: Router = Router()

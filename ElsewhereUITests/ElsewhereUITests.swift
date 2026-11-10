@@ -1,12 +1,12 @@
-//  ThereUITests.swift
-//  ThereUITests
+//  ElsewhereUITests.swift
+//  ElsewhereUITests
 //
 //  Created by Dena Sohrabi on 9/2/24.
 //
 
 import XCTest
 
-final class ThereUITests: XCTestCase {
+final class ElsewhereUITests: XCTestCase {
     let app = XCUIApplication()
 
     override func setUpWithError() throws {

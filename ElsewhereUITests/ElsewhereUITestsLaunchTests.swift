@@ -1,13 +1,13 @@
 //
-//  ThereUITestsLaunchTests.swift
-//  ThereUITests
+//  ElsewhereUITestsLaunchTests.swift
+//  ElsewhereUITests
 //
 //  Created by Dena Sohrabi on 9/2/24.
 //
 
 import XCTest
 
-final class ThereUITestsLaunchTests: XCTestCase {
+final class ElsewhereUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

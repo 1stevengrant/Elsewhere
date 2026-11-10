@@ -17,35 +17,35 @@
 			containerPortal = C325D0CC2C85A95F0049EFC8 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C325D0D32C85A95F0049EFC8;
-			remoteInfo = There;
+			remoteInfo = Elsewhere;
 		};
 		C325D0F02C85A9600049EFC8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C325D0CC2C85A95F0049EFC8 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C325D0D32C85A95F0049EFC8;
-			remoteInfo = There;
+			remoteInfo = Elsewhere;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C325D0D42C85A95F0049EFC8 /* There.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = There.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C325D0E52C85A9600049EFC8 /* ThereTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThereTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C325D0EF2C85A9600049EFC8 /* ThereUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThereUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C325D0D42C85A95F0049EFC8 /* Elsewhere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Elsewhere.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C325D0E52C85A9600049EFC8 /* ElsewhereTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElsewhereTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C325D0EF2C85A9600049EFC8 /* ElsewhereUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElsewhereUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		C398A8592C89D62E00891388 /* Exceptions for "There" folder in "There" target */ = {
+		C398A8592C89D62E00891388 /* Exceptions for "Elsewhere" folder in "Elsewhere" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"Views/CLAuthorizationStatus+Description.swift ",
 			);
-			target = C325D0D32C85A95F0049EFC8 /* There */;
+			target = C325D0D32C85A95F0049EFC8 /* Elsewhere */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		C398A85A2C89D62E00891388 /* Exceptions for "There" folder in "Compile Sources" phase from "There" target */ = {
+		C398A85A2C89D62E00891388 /* Exceptions for "Elsewhere" folder in "Compile Sources" phase from "Elsewhere" target */ = {
 			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
 			buildPhase = C325D0D02C85A95F0049EFC8 /* Sources */;
 			membershipExceptions = (
@@ -55,23 +55,23 @@
 /* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		C325D0D62C85A95F0049EFC8 /* There */ = {
+		C325D0D62C85A95F0049EFC8 /* Elsewhere */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				C398A8592C89D62E00891388 /* Exceptions for "There" folder in "There" target */,
-				C398A85A2C89D62E00891388 /* Exceptions for "There" folder in "Compile Sources" phase from "There" target */,
+				C398A8592C89D62E00891388 /* Exceptions for "Elsewhere" folder in "Elsewhere" target */,
+				C398A85A2C89D62E00891388 /* Exceptions for "Elsewhere" folder in "Compile Sources" phase from "Elsewhere" target */,
 			);
-			path = There;
+			path = Elsewhere;
 			sourceTree = "<group>";
 		};
-		C325D0E82C85A9600049EFC8 /* ThereTests */ = {
+		C325D0E82C85A9600049EFC8 /* ElsewhereTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ThereTests;
+			path = ElsewhereTests;
 			sourceTree = "<group>";
 		};
-		C325D0F22C85A9600049EFC8 /* ThereUITests */ = {
+		C325D0F22C85A9600049EFC8 /* ElsewhereUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ThereUITests;
+			path = ElsewhereUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -106,9 +106,9 @@
 		C325D0CB2C85A95F0049EFC8 = {
 			isa = PBXGroup;
 			children = (
-				C325D0D62C85A95F0049EFC8 /* There */,
-				C325D0E82C85A9600049EFC8 /* ThereTests */,
-				C325D0F22C85A9600049EFC8 /* ThereUITests */,
+				C325D0D62C85A95F0049EFC8 /* Elsewhere */,
+				C325D0E82C85A9600049EFC8 /* ElsewhereTests */,
+				C325D0F22C85A9600049EFC8 /* ElsewhereUITests */,
 				C3560CD62C9AADBA009C7EBA /* Frameworks */,
 				C325D0D52C85A95F0049EFC8 /* Products */,
 			);
@@ -117,9 +117,9 @@
 		C325D0D52C85A95F0049EFC8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C325D0D42C85A95F0049EFC8 /* There.app */,
-				C325D0E52C85A9600049EFC8 /* ThereTests.xctest */,
-				C325D0EF2C85A9600049EFC8 /* ThereUITests.xctest */,
+				C325D0D42C85A95F0049EFC8 /* Elsewhere.app */,
+				C325D0E52C85A9600049EFC8 /* ElsewhereTests.xctest */,
+				C325D0EF2C85A9600049EFC8 /* ElsewhereUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,9 +134,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C325D0D32C85A95F0049EFC8 /* There */ = {
+		C325D0D32C85A95F0049EFC8 /* Elsewhere */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C325D0F92C85A9600049EFC8 /* Build configuration list for PBXNativeTarget "There" */;
+			buildConfigurationList = C325D0F92C85A9600049EFC8 /* Build configuration list for PBXNativeTarget "Elsewhere" */;
 			buildPhases = (
 				C325D0D02C85A95F0049EFC8 /* Sources */,
 				C325D0D12C85A95F0049EFC8 /* Frameworks */,
@@ -147,20 +147,20 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				C325D0D62C85A95F0049EFC8 /* There */,
+				C325D0D62C85A95F0049EFC8 /* Elsewhere */,
 			);
-			name = There;
+			name = Elsewhere;
 			packageProductDependencies = (
 				C38562322C8719CB00858D54 /* GRDB */,
 				C357E5D02C877376003F9943 /* MenuBarExtraAccess */,
 			);
-			productName = There;
-			productReference = C325D0D42C85A95F0049EFC8 /* There.app */;
+			productName = Elsewhere;
+			productReference = C325D0D42C85A95F0049EFC8 /* Elsewhere.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C325D0E42C85A9600049EFC8 /* ThereTests */ = {
+		C325D0E42C85A9600049EFC8 /* ElsewhereTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C325D0FC2C85A9600049EFC8 /* Build configuration list for PBXNativeTarget "ThereTests" */;
+			buildConfigurationList = C325D0FC2C85A9600049EFC8 /* Build configuration list for PBXNativeTarget "ElsewhereTests" */;
 			buildPhases = (
 				C325D0E12C85A9600049EFC8 /* Sources */,
 				C325D0E22C85A9600049EFC8 /* Frameworks */,
@@ -172,18 +172,18 @@
 				C325D0E72C85A9600049EFC8 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				C325D0E82C85A9600049EFC8 /* ThereTests */,
+				C325D0E82C85A9600049EFC8 /* ElsewhereTests */,
 			);
-			name = ThereTests;
+			name = ElsewhereTests;
 			packageProductDependencies = (
 			);
-			productName = ThereTests;
-			productReference = C325D0E52C85A9600049EFC8 /* ThereTests.xctest */;
+			productName = ElsewhereTests;
+			productReference = C325D0E52C85A9600049EFC8 /* ElsewhereTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C325D0EE2C85A9600049EFC8 /* ThereUITests */ = {
+		C325D0EE2C85A9600049EFC8 /* ElsewhereUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C325D0FF2C85A9600049EFC8 /* Build configuration list for PBXNativeTarget "ThereUITests" */;
+			buildConfigurationList = C325D0FF2C85A9600049EFC8 /* Build configuration list for PBXNativeTarget "ElsewhereUITests" */;
 			buildPhases = (
 				C325D0EB2C85A9600049EFC8 /* Sources */,
 				C325D0EC2C85A9600049EFC8 /* Frameworks */,
@@ -195,13 +195,13 @@
 				C325D0F12C85A9600049EFC8 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				C325D0F22C85A9600049EFC8 /* ThereUITests */,
+				C325D0F22C85A9600049EFC8 /* ElsewhereUITests */,
 			);
-			name = ThereUITests;
+			name = ElsewhereUITests;
 			packageProductDependencies = (
 			);
-			productName = ThereUITests;
-			productReference = C325D0EF2C85A9600049EFC8 /* ThereUITests.xctest */;
+			productName = ElsewhereUITests;
+			productReference = C325D0EF2C85A9600049EFC8 /* ElsewhereUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -227,7 +227,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C325D0CF2C85A95F0049EFC8 /* Build configuration list for PBXProject "There" */;
+			buildConfigurationList = C325D0CF2C85A95F0049EFC8 /* Build configuration list for PBXProject "Elsewhere" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -246,9 +246,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C325D0D32C85A95F0049EFC8 /* There */,
-				C325D0E42C85A9600049EFC8 /* ThereTests */,
-				C325D0EE2C85A9600049EFC8 /* ThereUITests */,
+				C325D0D32C85A95F0049EFC8 /* Elsewhere */,
+				C325D0E42C85A9600049EFC8 /* ElsewhereTests */,
+				C325D0EE2C85A9600049EFC8 /* ElsewhereUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -304,12 +304,12 @@
 /* Begin PBXTargetDependency section */
 		C325D0E72C85A9600049EFC8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C325D0D32C85A95F0049EFC8 /* There */;
+			target = C325D0D32C85A95F0049EFC8 /* Elsewhere */;
 			targetProxy = C325D0E62C85A9600049EFC8 /* PBXContainerItemProxy */;
 		};
 		C325D0F12C85A9600049EFC8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C325D0D32C85A95F0049EFC8 /* There */;
+			target = C325D0D32C85A95F0049EFC8 /* Elsewhere */;
 			targetProxy = C325D0F02C85A9600049EFC8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -435,15 +435,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
-				CODE_SIGN_ENTITLEMENTS = There/There.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Elsewhere/Elsewhere.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_ASSET_PATHS = "\"There/Preview Content\"";
-				DEVELOPMENT_TEAM = 2487AN8AL4;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_ASSET_PATHS = "\"Elsewhere/Preview Content\"";
+				DEVELOPMENT_TEAM = B8VB38TXN9;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = There;
+				INFOPLIST_KEY_CFBundleDisplayName = Elsewhere;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "The app needs access to your location to provide location-based services";
@@ -461,8 +461,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.5;
-				MARKETING_VERSION = 2.0;
-				PRODUCT_BUNDLE_IDENTIFIER = pm.there.There;
+				MARKETING_VERSION = 2.1;
+				PRODUCT_BUNDLE_IDENTIFIER = nz.ghijk.Elsewhere;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "macosx xros xrsimulator";
@@ -480,15 +480,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
-				CODE_SIGN_ENTITLEMENTS = There/There.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Elsewhere/Elsewhere.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_ASSET_PATHS = "\"There/Preview Content\"";
-				DEVELOPMENT_TEAM = 2487AN8AL4;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_ASSET_PATHS = "\"Elsewhere/Preview Content\"";
+				DEVELOPMENT_TEAM = B8VB38TXN9;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = There;
+				INFOPLIST_KEY_CFBundleDisplayName = Elsewhere;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "The app needs access to your location to provide location-based services";
@@ -506,8 +506,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.5;
-				MARKETING_VERSION = 2.0;
-				PRODUCT_BUNDLE_IDENTIFIER = pm.there.There;
+				MARKETING_VERSION = 2.1;
+				PRODUCT_BUNDLE_IDENTIFIER = nz.ghijk.Elsewhere;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "macosx xros xrsimulator";
@@ -525,19 +525,19 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2487AN8AL4;
+				DEVELOPMENT_TEAM = B8VB38TXN9;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				MACOSX_DEPLOYMENT_TARGET = 14;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = pm.there.ThereTests;
+				PRODUCT_BUNDLE_IDENTIFIER = nz.ghijk.ElsewhereTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/There.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/There";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Elsewhere.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Elsewhere";
 				XROS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
@@ -548,19 +548,19 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2487AN8AL4;
+				DEVELOPMENT_TEAM = B8VB38TXN9;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				MACOSX_DEPLOYMENT_TARGET = 14;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = pm.there.ThereTests;
+				PRODUCT_BUNDLE_IDENTIFIER = nz.ghijk.ElsewhereTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/There.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/There";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Elsewhere.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Elsewhere";
 				XROS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
@@ -570,19 +570,19 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2487AN8AL4;
+				DEVELOPMENT_TEAM = B8VB38TXN9;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				MACOSX_DEPLOYMENT_TARGET = 14;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = pm.there.ThereUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = nz.ghijk.ElsewhereUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = There;
+				TEST_TARGET_NAME = Elsewhere;
 				XROS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
@@ -592,19 +592,19 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2487AN8AL4;
+				DEVELOPMENT_TEAM = B8VB38TXN9;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				MACOSX_DEPLOYMENT_TARGET = 14;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = pm.there.ThereUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = nz.ghijk.ElsewhereUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = There;
+				TEST_TARGET_NAME = Elsewhere;
 				XROS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
@@ -612,7 +612,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C325D0CF2C85A95F0049EFC8 /* Build configuration list for PBXProject "There" */ = {
+		C325D0CF2C85A95F0049EFC8 /* Build configuration list for PBXProject "Elsewhere" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C325D0F72C85A9600049EFC8 /* Debug */,
@@ -621,7 +621,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C325D0F92C85A9600049EFC8 /* Build configuration list for PBXNativeTarget "There" */ = {
+		C325D0F92C85A9600049EFC8 /* Build configuration list for PBXNativeTarget "Elsewhere" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C325D0FA2C85A9600049EFC8 /* Debug */,
@@ -630,7 +630,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C325D0FC2C85A9600049EFC8 /* Build configuration list for PBXNativeTarget "ThereTests" */ = {
+		C325D0FC2C85A9600049EFC8 /* Build configuration list for PBXNativeTarget "ElsewhereTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C325D0FD2C85A9600049EFC8 /* Debug */,
@@ -639,7 +639,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C325D0FF2C85A9600049EFC8 /* Build configuration list for PBXNativeTarget "ThereUITests" */ = {
+		C325D0FF2C85A9600049EFC8 /* Build configuration list for PBXNativeTarget "ElsewhereUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C325D1002C85A9600049EFC8 /* Debug */,

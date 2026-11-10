@@ -1,13 +1,13 @@
 //
-//  ThereTests.swift
-//  ThereTests
+//  ElsewhereTests.swift
+//  ElsewhereTests
 //
 //  Created by Dena Sohrabi on 9/2/24.
 //
 
 import Testing
 
-struct ThereTests {
+struct ElsewhereTests {
 
     @Test func example() async throws {
         // Write your test here and use APIs like `#expect(...)` to check expected conditions.

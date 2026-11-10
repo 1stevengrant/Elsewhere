@@ -6,7 +6,7 @@ struct RightPanel: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
-            Text("Welcome to There")
+            Text("Welcome to Elsewhere")
                 .font(.headline)
             Text("Keep your favourite timezones close at hand.")
                 .font(.callout)
