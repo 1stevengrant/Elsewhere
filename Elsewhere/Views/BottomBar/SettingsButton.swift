@@ -6,7 +6,6 @@ struct SettingsButton: View {
     @EnvironmentObject var appState: AppState
     @Environment(\.database) var database: AppDatabase
     @Environment(\.colorScheme) var scheme
-    @AppStorage("launchAtLogin") private var launchAtLogin = false
     @Binding var sortOrder: SortOrder
     var backgroundColor: Color {
         if scheme == .dark {
@@ -18,14 +17,10 @@ struct SettingsButton: View {
 
     var body: some View {
         Menu {
-            Toggle("Launch at Login", isOn: $launchAtLogin)
-                .onChange(of: launchAtLogin) { newValue in
-                    if newValue {
-                        installLaunchAgent()
-                    } else {
-                        uninstallLaunchAgent()
-                    }
-                }
+            Toggle("Launch at Login", isOn: Binding(
+                get: { LaunchAtLogin.isEnabled },
+                set: { LaunchAtLogin.setEnabled($0) }
+            ))
             Toggle("Ascending order", isOn: Binding(
                 get: { sortOrder == .timeAscending },
                 set: { newValue in
