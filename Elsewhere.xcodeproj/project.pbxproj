@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E15E0A032F00000000ABCDEF /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = E15E0A022F00000000ABCDEF /* Sparkle */; };
 		C357E5D12C877376003F9943 /* MenuBarExtraAccess in Frameworks */ = {isa = PBXBuildFile; productRef = C357E5D02C877376003F9943 /* MenuBarExtraAccess */; };
 		C38562332C8719CB00858D54 /* GRDB in Frameworks */ = {isa = PBXBuildFile; productRef = C38562322C8719CB00858D54 /* GRDB */; };
 /* End PBXBuildFile section */
@@ -38,6 +39,7 @@
 		C398A8592C89D62E00891388 /* Exceptions for "Elsewhere" folder in "Elsewhere" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				Info.plist,
 				"Views/CLAuthorizationStatus+Description.swift ",
 			);
 			target = C325D0D32C85A95F0049EFC8 /* Elsewhere */;
@@ -83,6 +85,7 @@
 			files = (
 				C38562332C8719CB00858D54 /* GRDB in Frameworks */,
 				C357E5D12C877376003F9943 /* MenuBarExtraAccess in Frameworks */,
+				E15E0A032F00000000ABCDEF /* Sparkle in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +156,7 @@
 			packageProductDependencies = (
 				C38562322C8719CB00858D54 /* GRDB */,
 				C357E5D02C877376003F9943 /* MenuBarExtraAccess */,
+				E15E0A022F00000000ABCDEF /* Sparkle */,
 			);
 			productName = Elsewhere;
 			productReference = C325D0D42C85A95F0049EFC8 /* Elsewhere.app */;
@@ -239,6 +243,7 @@
 			packageReferences = (
 				C38562312C8719CB00858D54 /* XCRemoteSwiftPackageReference "GRDB.swift" */,
 				C357E5CF2C877376003F9943 /* XCRemoteSwiftPackageReference "MenuBarExtraAccess" */,
+				E15E0A012F00000000ABCDEF /* XCRemoteSwiftPackageReference "Sparkle" */,
 				CD8311052C99A18A008EEF3A /* XCRemoteSwiftPackageReference "Sparkle" */,
 			);
 			preferredProjectObjectVersion = 77;
@@ -443,6 +448,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Elsewhere/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Elsewhere;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_LSUIElement = YES;
@@ -488,6 +494,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Elsewhere/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Elsewhere;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_LSUIElement = YES;
@@ -651,6 +658,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		E15E0A012F00000000ABCDEF /* XCRemoteSwiftPackageReference "Sparkle" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sparkle-project/Sparkle";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.10.0;
+			};
+		};
 		C357E5CF2C877376003F9943 /* XCRemoteSwiftPackageReference "MenuBarExtraAccess" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/orchetect/MenuBarExtraAccess";
@@ -678,6 +693,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		E15E0A022F00000000ABCDEF /* Sparkle */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E15E0A012F00000000ABCDEF /* XCRemoteSwiftPackageReference "Sparkle" */;
+			productName = Sparkle;
+		};
 		C357E5D02C877376003F9943 /* MenuBarExtraAccess */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = C357E5CF2C877376003F9943 /* XCRemoteSwiftPackageReference "MenuBarExtraAccess" */;

@@ -71,3 +71,6 @@ playground.xcworkspace
 # Other
 *.log
 *.sqlite
+
+# Release derived data
+.build/

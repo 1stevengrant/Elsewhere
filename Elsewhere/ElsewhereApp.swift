@@ -15,6 +15,11 @@ struct ElsewhereApp: App {
     @Environment(\.openWindow) var openWindow
     @ObservedObject var appState = AppState.shared
     @StateObject var router: Router = Router()
+
+    init() {
+        _ = Updater.controller
+    }
+
     var body: some Scene {
         MenuBarExtra {
             ContentView()

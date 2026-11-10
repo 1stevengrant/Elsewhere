@@ -43,6 +43,10 @@ struct SettingsButton: View {
                 }
             #endif
 
+            Button("Check for Updates…") {
+                Updater.checkForUpdates()
+            }
+
             Button("Import from There…") {
                 ThereImport.run(into: database)
             }
