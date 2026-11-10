@@ -12,6 +12,8 @@ Elsewhere is a maintained fork of [There](https://github.com/dena-sohrabi/There)
 brew install --cask 1stevengrant/tap/elsewhere
 ```
 
+If Homebrew says the tap is untrusted, run `brew trust 1stevengrant/tap` and try again.
+
 Or download the latest zip from [Releases](https://github.com/1stevengrant/Elsewhere/releases), unzip it and move Elsewhere to Applications.
 
 To build from source, open `Elsewhere.xcodeproj` in Xcode 16 or later and run the Elsewhere scheme.
