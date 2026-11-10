@@ -29,7 +29,7 @@ xcodebuild archive \
     -archivePath "$ARCHIVE" \
     -destination "generic/platform=macOS" \
     CODE_SIGN_STYLE=Manual \
-    CODE_SIGN_IDENTITY="Developer ID Application" \
+    CODE_SIGN_IDENTITY="Developer ID Application: Steven Grant ($TEAM_ID)" \
     DEVELOPMENT_TEAM="$TEAM_ID" \
     PROVISIONING_PROFILE_SPECIFIER="" \
     OTHER_CODE_SIGN_FLAGS="--timestamp" \
