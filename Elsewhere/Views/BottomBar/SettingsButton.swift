@@ -43,6 +43,10 @@ struct SettingsButton: View {
                 }
             #endif
 
+            Button("Import from There…") {
+                ThereImport.run(into: database)
+            }
+
             Divider()
 
             Button("Quit") {
